@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5FCAFD2BF5E510007437DA /* rosetta_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCAFC2BF5E510007437DA /* rosetta_2App.swift */; };
+		3C5FCAFF2BF5E510007437DA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCAFE2BF5E510007437DA /* Persistence.swift */; };
+		3C5FCB022BF5E510007437DA /* rosetta_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCB002BF5E510007437DA /* rosetta_2.xcdatamodeld */; };
+		3C5FCB042BF5E510007437DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCB032BF5E510007437DA /* ContentView.swift */; };
+		3C5FCB062BF5E511007437DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCB052BF5E511007437DA /* Assets.xcassets */; };
+		3C5FCB0A2BF5E511007437DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCB092BF5E511007437DA /* Preview Assets.xcassets */; };
+		3C5FCB142BF5E512007437DA /* rosetta_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCB132BF5E512007437DA /* rosetta_2Tests.swift */; };
+		3C5FCB1E2BF5E512007437DA /* rosetta_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCB1D2BF5E512007437DA /* rosetta_2UITests.swift */; };
+		3C5FCB202BF5E512007437DA /* rosetta_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCB1F2BF5E512007437DA /* rosetta_2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5FCB102BF5E512007437DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5FCAF12BF5E510007437DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5FCAF82BF5E510007437DA;
+			remoteInfo = "rosetta 2";
+		};
+		3C5FCB1A2BF5E512007437DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5FCAF12BF5E510007437DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5FCAF82BF5E510007437DA;
+			remoteInfo = "rosetta 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5FCAF92BF5E510007437DA /* rosetta 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rosetta 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5FCAFC2BF5E510007437DA /* rosetta_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosetta_2App.swift; sourceTree = "<group>"; };
+		3C5FCAFE2BF5E510007437DA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3C5FCB012BF5E510007437DA /* rosetta_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rosetta_2.xcdatamodel; sourceTree = "<group>"; };
+		3C5FCB032BF5E510007437DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C5FCB052BF5E511007437DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C5FCB072BF5E511007437DA /* rosetta_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rosetta_2.entitlements; sourceTree = "<group>"; };
+		3C5FCB092BF5E511007437DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C5FCB0F2BF5E512007437DA /* rosetta 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rosetta 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5FCB132BF5E512007437DA /* rosetta_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosetta_2Tests.swift; sourceTree = "<group>"; };
+		3C5FCB192BF5E512007437DA /* rosetta 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rosetta 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5FCB1D2BF5E512007437DA /* rosetta_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosetta_2UITests.swift; sourceTree = "<group>"; };
+		3C5FCB1F2BF5E512007437DA /* rosetta_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosetta_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5FCAF62BF5E510007437DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5FCB0C2BF5E512007437DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5FCB162BF5E512007437DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5FCAF02BF5E510007437DA = {
+			isa = PBXGroup;
+			children = (
+				3C5FCAFB2BF5E510007437DA /* rosetta 2 */,
+				3C5FCB122BF5E512007437DA /* rosetta 2Tests */,
+				3C5FCB1C2BF5E512007437DA /* rosetta 2UITests */,
+				3C5FCAFA2BF5E510007437DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5FCAFA2BF5E510007437DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCAF92BF5E510007437DA /* rosetta 2.app */,
+				3C5FCB0F2BF5E512007437DA /* rosetta 2Tests.xctest */,
+				3C5FCB192BF5E512007437DA /* rosetta 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5FCAFB2BF5E510007437DA /* rosetta 2 */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCAFC2BF5E510007437DA /* rosetta_2App.swift */,
+				3C5FCAFE2BF5E510007437DA /* Persistence.swift */,
+				3C5FCB032BF5E510007437DA /* ContentView.swift */,
+				3C5FCB052BF5E511007437DA /* Assets.xcassets */,
+				3C5FCB072BF5E511007437DA /* rosetta_2.entitlements */,
+				3C5FCB002BF5E510007437DA /* rosetta_2.xcdatamodeld */,
+				3C5FCB082BF5E511007437DA /* Preview Content */,
+			);
+			path = "rosetta 2";
+			sourceTree = "<group>";
+		};
+		3C5FCB082BF5E511007437DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCB092BF5E511007437DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C5FCB122BF5E512007437DA /* rosetta 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCB132BF5E512007437DA /* rosetta_2Tests.swift */,
+			);
+			path = "rosetta 2Tests";
+			sourceTree = "<group>";
+		};
+		3C5FCB1C2BF5E512007437DA /* rosetta 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCB1D2BF5E512007437DA /* rosetta_2UITests.swift */,
+				3C5FCB1F2BF5E512007437DA /* rosetta_2UITestsLaunchTests.swift */,
+			);
+			path = "rosetta 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5FCAF82BF5E510007437DA /* rosetta 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5FCB232BF5E512007437DA /* Build configuration list for PBXNativeTarget "rosetta 2" */;
+			buildPhases = (
+				3C5FCAF52BF5E510007437DA /* Sources */,
+				3C5FCAF62BF5E510007437DA /* Frameworks */,
+				3C5FCAF72BF5E510007437DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rosetta 2";
+			productName = "rosetta 2";
+			productReference = 3C5FCAF92BF5E510007437DA /* rosetta 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5FCB0E2BF5E512007437DA /* rosetta 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5FCB262BF5E512007437DA /* Build configuration list for PBXNativeTarget "rosetta 2Tests" */;
+			buildPhases = (
+				3C5FCB0B2BF5E512007437DA /* Sources */,
+				3C5FCB0C2BF5E512007437DA /* Frameworks */,
+				3C5FCB0D2BF5E512007437DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5FCB112BF5E512007437DA /* PBXTargetDependency */,
+			);
+			name = "rosetta 2Tests";
+			productName = "rosetta 2Tests";
+			productReference = 3C5FCB0F2BF5E512007437DA /* rosetta 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C5FCB182BF5E512007437DA /* rosetta 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5FCB292BF5E512007437DA /* Build configuration list for PBXNativeTarget "rosetta 2UITests" */;
+			buildPhases = (
+				3C5FCB152BF5E512007437DA /* Sources */,
+				3C5FCB162BF5E512007437DA /* Frameworks */,
+				3C5FCB172BF5E512007437DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5FCB1B2BF5E512007437DA /* PBXTargetDependency */,
+			);
+			name = "rosetta 2UITests";
+			productName = "rosetta 2UITests";
+			productReference = 3C5FCB192BF5E512007437DA /* rosetta 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5FCAF12BF5E510007437DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C5FCAF82BF5E510007437DA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3C5FCB0E2BF5E512007437DA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C5FCAF82BF5E510007437DA;
+					};
+					3C5FCB182BF5E512007437DA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C5FCAF82BF5E510007437DA;
+					};
+				};
+			};
+			buildConfigurationList = 3C5FCAF42BF5E510007437DA /* Build configuration list for PBXProject "rosetta 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5FCAF02BF5E510007437DA;
+			productRefGroup = 3C5FCAFA2BF5E510007437DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5FCAF82BF5E510007437DA /* rosetta 2 */,
+				3C5FCB0E2BF5E512007437DA /* rosetta 2Tests */,
+				3C5FCB182BF5E512007437DA /* rosetta 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5FCAF72BF5E510007437DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5FCB0A2BF5E511007437DA /* Preview Assets.xcassets in Resources */,
+				3C5FCB062BF5E511007437DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5FCB0D2BF5E512007437DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5FCB172BF5E512007437DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5FCAF52BF5E510007437DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5FCAFD2BF5E510007437DA /* rosetta_2App.swift in Sources */,
+				3C5FCAFF2BF5E510007437DA /* Persistence.swift in Sources */,
+				3C5FCB042BF5E510007437DA /* ContentView.swift in Sources */,
+				3C5FCB022BF5E510007437DA /* rosetta_2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5FCB0B2BF5E512007437DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5FCB142BF5E512007437DA /* rosetta_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5FCB152BF5E512007437DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5FCB202BF5E512007437DA /* rosetta_2UITestsLaunchTests.swift in Sources */,
+				3C5FCB1E2BF5E512007437DA /* rosetta_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5FCB112BF5E512007437DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5FCAF82BF5E510007437DA /* rosetta 2 */;
+			targetProxy = 3C5FCB102BF5E512007437DA /* PBXContainerItemProxy */;
+		};
+		3C5FCB1B2BF5E512007437DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5FCAF82BF5E510007437DA /* rosetta 2 */;
+			targetProxy = 3C5FCB1A2BF5E512007437DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C5FCB212BF5E512007437DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C5FCB222BF5E512007437DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C5FCB242BF5E512007437DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "rosetta 2/rosetta_2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rosetta 2/Preview Content\"";
+				DEVELOPMENT_TEAM = B8FLK8BS72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.rosetta-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C5FCB252BF5E512007437DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "rosetta 2/rosetta_2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rosetta 2/Preview Content\"";
+				DEVELOPMENT_TEAM = B8FLK8BS72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.rosetta-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C5FCB272BF5E512007437DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FLK8BS72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.rosetta-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rosetta 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rosetta 2";
+			};
+			name = Debug;
+		};
+		3C5FCB282BF5E512007437DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FLK8BS72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.rosetta-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rosetta 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rosetta 2";
+			};
+			name = Release;
+		};
+		3C5FCB2A2BF5E512007437DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FLK8BS72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.rosetta-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rosetta 2";
+			};
+			name = Debug;
+		};
+		3C5FCB2B2BF5E512007437DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8FLK8BS72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "apple.rosetta-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rosetta 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5FCAF42BF5E510007437DA /* Build configuration list for PBXProject "rosetta 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5FCB212BF5E512007437DA /* Debug */,
+				3C5FCB222BF5E512007437DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5FCB232BF5E512007437DA /* Build configuration list for PBXNativeTarget "rosetta 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5FCB242BF5E512007437DA /* Debug */,
+				3C5FCB252BF5E512007437DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5FCB262BF5E512007437DA /* Build configuration list for PBXNativeTarget "rosetta 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5FCB272BF5E512007437DA /* Debug */,
+				3C5FCB282BF5E512007437DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5FCB292BF5E512007437DA /* Build configuration list for PBXNativeTarget "rosetta 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5FCB2A2BF5E512007437DA /* Debug */,
+				3C5FCB2B2BF5E512007437DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C5FCB002BF5E510007437DA /* rosetta_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C5FCB012BF5E510007437DA /* rosetta_2.xcdatamodel */,
+			);
+			currentVersion = 3C5FCB012BF5E510007437DA /* rosetta_2.xcdatamodel */;
+			path = rosetta_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C5FCAF12BF5E510007437DA /* Project object */;
+}
